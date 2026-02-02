@@ -2,12 +2,44 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <meta name="robots" content="noindex, nofollow">
-  <title>Site discret</title>
+  <meta name="robots" content="noindex">
+  <title>TIPE – Présentation</title>
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <h1>Mon site existe.</h1>
-  <p>Accessible uniquement par lien.</p>
+
+<header>
+  <h1>TIPE – Modélisation & Simulation</h1>
+  <p class="subtitle">Projet scientifique – MP2I</p>
+  <nav>
+    <a href="index.html">Présentation</a>
+    <a href="recherches.html">Recherches</a>
+  </nav>
+</header>
+
+<section class="intro">
+  <h2>Présentation</h2>
+  <p>
+    Ce site présente la réflexion, les hypothèses et les résultats
+    liés à mon TIPE. Les calculs sont réalisés hors ligne (OCaml / C),
+    le site servant de support visuel.
+  </p>
+</section>
+
+<section class="timeline">
+  <h2>Avancement du projet</h2>
+
+  <div class="line">
+    <div class="point" data-text="Choix du sujet et premières pistes."></div>
+    <div class="point" data-text="Construction du modèle mathématique."></div>
+    <div class="point" data-text="Implémentation et simulations."></div>
+    <div class="point" data-text="Analyse des résultats et limites."></div>
+  </div>
+
+  <div id="tooltip"></div>
+</section>
+
+<script src="script.js"></script>
 </body>
 </html>
-
